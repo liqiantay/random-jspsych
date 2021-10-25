@@ -31,7 +31,7 @@
     /* define welcome message trial */
     var welcome = {
       type: jsPsychHtmlKeyboardResponse,
-      stimulus: "Hello, press any key to begin."
+      stimulus: "A simple Biden vs. Trump reaction time task. Press any key to begin."
     };
     timeline.push(welcome);
 
@@ -39,9 +39,8 @@
     var instructions = {
       type: jsPsychHtmlKeyboardResponse,
       stimulus: `
-        <p>Pictures of Biden and Trump will appear.</p><p> Press the letter F on the keyboard as fast as you can, 
-        when <strong>Biden's picture </strong> appear.</p>
-        <p>If <strong> Trump's picture </strong> appear, press the letter J 
+        <p>Pictures of Biden and Trump will appear.</p><p> Press the letter F on the keyboard as fast as you can
+        when <strong>Biden's picture</strong> appear, and, if <strong> Trump's picture </strong> appear, press the letter J 
         as fast as you can.</p>
         <div style='width: 600px;'>
         <div style='float: left;'><img src='assets/images/blue.png'></img>
